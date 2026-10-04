@@ -347,10 +347,17 @@ footer a:hover {
   /* NAVBAR */
   nav {
     padding: 0 20px;
+    border: 3px solid #3ff18f;
+    background-color: #2a343d;
+    
+  }
+
+  nav .left a {
+    font-size: 18px;
   }
 
   nav .right a {
-    font-size: 22px;
+    font-size: 15px;
   }
 
   nav .right a:last-child {
@@ -366,19 +373,52 @@ footer a:hover {
   /* SECTION 1: Hero */
   .hero-section {
     padding: 0 20px;
+    border-top: 5px solid #3b82f6;
+    border: 2px solid #13aff7;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding : 20px;
   }
 
   .hero-section .text h2 {
-    font-size: 30px;
+    font-size: 22px; 
+    margin-bottom: 5px;
+    
+  }
+
+  .hero-section .text p {
+    font-size: 14px;
+    background-color: #2a343d;
+    border: 1px solid #0eeb58;
+    padding: 10px 25px;
+    margin: 0px -20px;
   }
 
   /* SECTION 2: Skills */
   .skills-section {
     padding: 0 20px;
+    border: 1px solid #2e90e0;
+    padding : 20px;
+  }
+
+  .skills-section h2 {
+    font-size: 22px;
+    background-color: #0990eb;
+    border: 2px solid #0eeb58;
+  }
+
+  .skills-section .text {
+    font-size: 14px;
+  }
+
+  .skills-section .cells .cell {
+   width: 150px;
+   margin: 20px;
+   
   }
 
   .skills-section .cells .cell span {
-    font-size: 16px;
+    font-size: 10px;
   }
 
   /* SECTION 3: Testimony */
